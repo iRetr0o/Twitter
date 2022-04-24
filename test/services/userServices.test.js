@@ -27,10 +27,13 @@ describe("Prueba de unidad para la clase UserService", () => {
     const user1 = UserService.create(1, "explorer1", "Oscar");
     const user2 = UserService.create(2, "explorer2", "Rodrigo");
     const user3 = UserService.create(3, "explorer3", "Carlo");
+<<<<<<< HEAD
     const usernames = UserService.getAllUsernames([user1, user2, user3]);
 
     expect(usernames).toContain("explorer1");
     expect(usernames).toContain("explorer2");
     expect(usernames).toContain("explorer3");
+=======
+>>>>>>> 21ed5217bbd978526ff215a660af5a9871f9cb49
   });
 });
