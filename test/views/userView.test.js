@@ -13,4 +13,10 @@ describe("Tests para UserView", () => {
 
     expect(result.error).toMatch(/Necesitan tener un valor valido/);
   });
+  test("3 Retornando un error al objeto cuando intento crear un nuevo usuario sin las demas propiedades", () => {
+    const payload = { username: "Username" };
+    const result = UserView.createUser(payload);
+
+    expect(result.error).toMatch(/Necesitan tener un valor valido/);
+  });
 });
