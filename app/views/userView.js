@@ -3,6 +3,7 @@ const UserService = require("./../services/userServices");
 
 class UserView {
   static createUser(payload) {
+<<<<<<< HEAD
     if (payload === null) {
       return { error: "payload no existe" };
     } else if (
@@ -14,6 +15,12 @@ class UserView {
       payload.id == null
     ) {
       return { error: "Necesitan tener un valor valido" };
+=======
+    switch (payload) {
+      case null: {
+        return { error: "payload no existe" };
+      }
+>>>>>>> 295ef936a4433f8484151c473975e2dfd039a0af
     }
   }
 }
