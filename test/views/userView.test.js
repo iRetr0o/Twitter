@@ -5,6 +5,6 @@ describe("Tests para UserView", () => {
     const payload = null;
     const result = UserView.createUser(payload);
 
-    expect(result.error).toMach(/payload no existe/);
+    expect(result.error).toMatch(/payload no existe/);
   });
 });
