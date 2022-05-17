@@ -12,8 +12,10 @@ npm test 'archivo de tu prueba'
 ## Dependencias
 | Nombre  | Versión | Documentación | 
 | :------------: | :------------: | :------------: |
-| Node | 16.14.2 | <a href="https://nodejs.org/docs/latest-v16.x/api/index.html" target="_blank"><img src="https://img.shields.io/badge/🔗 Node-Documentation-green?style=for-the-badge"></a> |
 | Jest | 27.5.1  | <a href="https://jestjs.io/docs/27.x/getting-started" target="_blank"><img src="https://img.shields.io/badge/Jest-Documentation-brightgreen?style=for-the-badge&logo=jest"></a> |
+
+Versión de Node: [16.14.2](https://nodejs.org/docs/latest-v16.x/api/index.html)
+
 ## Prácticas de la semana 3
 [Práctica 3](https://github.com/iRetr0o/Twitter/tree/main/test/models)
 ```markdown
