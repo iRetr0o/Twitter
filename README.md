@@ -14,7 +14,7 @@ npm test 'archivo de tu prueba'
 | :------------: | :------------: | :------------: |
 | Node | 16.14.2 | <a href="https://nodejs.org/docs/latest-v16.x/api/index.html" target="_blank"><img src="https://img.shields.io/badge/🔗 Node-Documentation-green?style=for-the-badge"></a> |
 | Jest | 27.5.1  | <a href="https://jestjs.io/docs/27.x/getting-started" target="_blank"><img src="https://img.shields.io/badge/Jest-Documentation-brightgreen?style=for-the-badge&logo=jest"></a> |
-## Práctica 3, 4 y 5 de la semana 3
+## Prácticas de la semana 3
 [Práctica 3](https://github.com/iRetr0o/Twitter/tree/main/test/models)
 ```markdown
 Después de evaluar tiempo y esfuerzos, el equipo de Launch X ha decidido crear la aplicación `Twitter`. Para ello han definido la primera etapa del sprint con los siguientes requerimientos a desarrollar:
